@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.in Home Page</title>
+    <style>
+        /* CSS for Home Page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #000;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Add dark mode styles */
+        body.dark-mode {
+            background-color: #111;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Home Page content goes here -->
+        <h1>Welcome to Amazon.in</h1>
+        <p>This is the home page content.</p>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+
+    <script>
+        // JavaScript function to toggle dark mode
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
